@@ -1,0 +1,331 @@
+body{
+    background-color: #040303;
+}
+/* Content */
+.row{
+    gap: .5rem;
+    height: 100vh;
+}
+.row .col-md-2 .list-group .list-group-item{
+    background-color: whitesmoke;
+    color: #000;
+    height: 50px;
+    text-align: left;
+    padding: 10px;
+    margin: auto;
+}
+.row .side .col-md-2 .list-group .list-group-item{
+    background-color: whitesmoke;
+    color: #000;
+    height: 50px;
+    text-align: left;
+    padding: 10px;
+    margin: auto;
+}
+.row .col-md-2 .list-group .list-group-item:hover{
+    background-color: #181818;
+    color: #fff;
+}
+.row .col-md-2 .list-group  .active{
+    background-color: #3D8361;
+    color: #000;
+    font-family: sans-serif;
+    text-align: center;
+}
+.row .side .col-md-2 .list-group  .active{
+    background-color: whitesmoke;
+    color: #000;
+    font-family: sans-serif;
+    text-align: center;
+}
+.row .col-md-2 .list-group  .active:hover{
+    background-color: #3D8361;
+    color: #000;
+}
+.row .col-md-3 .card{
+    height: 350px;
+    background-color: whitesmoke;
+    color: #000;
+    text-align: center;
+}
+.row .col-md-3 .card:hover{
+    background-color: gray;
+    color: whitesmoke;
+}
+.row .col-md-3 .card img{
+    height: 130px;
+}
+.row .col-md-3 .card h5{
+    text-align: left;
+    color: #181818;
+}
+.row .carousel .carousel-inner .carousel-item img{
+    width: 500px;
+    height: 400px;
+}
+/* About us */
+.box{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+}
+.row .col-md-9 .box h2{
+    color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    width: 250px;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+.row .col-md-9 .box p{
+    color: gray;
+}
+b{
+    color: whitesmoke;
+}
+/* Produk */
+.content{
+    gap: 1rem;
+    height: 100vh;
+}
+.content .col-md-2 .list-group .list-group-item{
+    background-color: whitesmoke;
+    color: #181818;
+    height: 50px;
+    text-align: left;
+    padding: 10px;
+    margin: auto;
+}
+.content .side .col-md-2 .list-group .list-group-item{
+    background-color: transparent;
+    color: #fff;
+    height: 50px;
+    text-align: left;
+    padding: 10px;
+    margin: auto;
+}
+.content .col-md-2 .list-group .list-group-item:hover{
+    background-color: #181818;
+    color: #fff;
+}
+.content .col-md-2 .list-group  .active{
+    background-color: #3D8361;
+    color: #000;
+    font-family: sans-serif;
+    text-align: center;
+}
+.content .side .col-md-2 .list-group  .active{
+    background-color: whitesmoke;
+    color: #000;
+    font-family: sans-serif;
+    text-align: center;
+}
+.content .col-md-2 .list-group  .active:hover{
+    background-color: #3D8361;
+    color: #000;
+}
+.content .col-md-3 .card{
+    height: 500px;
+    background-color: #2C3333;
+    color: gray;
+    text-align: center;
+}
+.content .col-md-3 .card:hover{
+    background-color: gray;
+    color: whitesmoke;
+}
+.content .col-md-3 .card img{
+    height: 150px;
+}
+.content .col-md-3 .card h5{
+    text-align: left;
+    color: whitesmoke;
+}
+.content .card-group .card{
+    background-color: #1B2430;
+    color: gray;
+    text-align: center;
+}
+.content .card-group .card h5{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+}
+.content .card-group .card h3{
+    text-align: center;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+table{
+    border-collapse: collapse;
+    color: whitesmoke;
+    width: 100%;
+    align-items: center;
+}
+th,td{
+    border: 1px solid #fff;
+    text-align: center;
+}
+tr{
+    color: grey;
+    font-size: 25px;
+}
+/* Legalitas */
+.row .col-md-6 .box img{
+    width: 600px;
+}
+/* Footer */
+.row .footer{
+    border: 1px solid #fff;
+    align-items: center;
+    display: flex;
+}
+.row .footer .col-md-3{
+    display: grid;
+    gap: 1rem;
+}
+.row .footer .col-md-4{
+    display: grid;
+    gap: 1rem;
+    position: relative;
+    right: -5%;
+}
+.row .footer .col-md-3 h2{
+    color: whitesmoke;
+    float: left;
+    border-bottom: 1px solid whitesmoke;
+    margin: 0px;
+    padding: 5px;
+    font-size: 30px;
+    width: 100px;
+}
+.row .footer .col-md-3 ul li{
+    color: transparent;
+    position: relative;
+    left: -5%;
+}
+.row .footer .col-md-3 ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0px;
+    padding: 5px;
+    left: 0;
+    font-size: 15px;
+    display: flex;
+}
+.row .footer .col-md-3 ul li a:hover{
+    color: cyan;
+    text-decoration: underline;
+}
+.row .footer .col-md-4 h3{
+    color: whitesmoke;
+    float: left;
+    right: 0;
+    padding: 5px;
+    border-bottom: 1px solid whitesmoke;
+    width: 150px;
+}
+.row .footer .col-md-4 p{
+    color: whitesmoke;
+    display: grid;
+    font-size: 15px;
+}
+.row .icons{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.row .icons a{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.row .icons a:hover{
+    color: cyan;
+}
+.row .nametag{
+    text-align: center;
+    color: #181818;
+    font-size: 20px;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+.content .nametag{
+    text-align: center;
+    color: #181818;
+    font-size: 20px;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+.bi-patch-check-fill{
+    color: blue;
+}
+.row .footer .col-md-6 h3{
+    color: whitesmoke;
+    float: left;
+    right: 0;
+    padding: 5px;
+    border-bottom: 1px solid whitesmoke;
+    width: 150px;
+}
+.row .footer .col-md-6 p{
+    color: whitesmoke;
+    display: grid;
+    font-size: 15px;
+}
+.row .footer .col-md-6{
+    display: grid;
+    gap: 1rem;
+    position: relative;
+    right: -5%;
+}
+/* Layanan */
+.bi-circle-fill{
+    color: #7895B2;
+    font-size: 30px;
+    text-align: left;
+    justify-content: left;
+}
+.accordion-collapse .accordion-body{
+    text-align: left;
+    justify-content: left;
+}
+.left-box{
+    border-left: 10px solid #7895B2;
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    left: 1%;
+}
+.row .col-md-7 .box{
+    display: flex;
+    border: 3px solid #7895B2;
+    height: 300px;
+}
+.row .col-md-7 .box .info h2{
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    display: grid;
+}
+iframe{
+    width: 350px;
+    position: relative;
+    left: -3%;
+    height: 250px;
+}
+.row .col-md-7 .box .info h3{
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    display: grid;
+}
+.row .col-md-7 .box .info i{
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 5px;
+    padding-top: 5px;
+}
+.row .col-md-7 .box .info #backhome{
+    width: 300px;
+}
